@@ -14,7 +14,7 @@ type StackCardProps = {
   children: ReactNode;
 };
 
-const STACKED = "(min-width: 1024px) and (min-height: 700px)";
+const STACKED = "(min-width: 1024px) and (min-height: 620px)";
 const SHRINK = 0.08;
 
 /**

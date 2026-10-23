@@ -28,7 +28,7 @@ export function Featured() {
               isLast={index === FEATURED.length - 1}
               className={item.tint}
             >
-              <div className="mx-auto grid h-full w-full max-w-[1920px] items-center gap-8 px-[var(--gutter)] py-12 md:grid-cols-2 md:gap-12 lg:grid-cols-[5fr_7fr] lg:gap-16 lg:py-10">
+              <div className="mx-auto grid h-full w-full max-w-[1920px] items-center gap-8 px-[var(--gutter)] py-12 md:grid-cols-2 md:gap-12 lg:grid-cols-[5fr_7fr] lg:gap-16 lg:pt-[calc(var(--header-h)+1rem)] lg:pb-10">
                 <div className="flex justify-center">
                   <Photo
                     photo={getPhoto(item.slug, item.photo)}

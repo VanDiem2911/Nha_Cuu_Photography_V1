@@ -7,11 +7,17 @@ Các route của Nhà Cừu lấy từ yêu cầu của khách (mục 4 trong PR
 
 | Route Nhà Cừu | Học từ (trang mẫu) | Giai đoạn | Trạng thái |
 |---|---|---|---|
-| `/` | `/` | 1 | Đã dựng: header, hero, giới thiệu ngắn, cảnh ghim phóng ảnh, chữ chạy + cụm ảnh, 4 nhóm ảnh, "Khám phá concept", 3 thẻ concept chồng, "Về Nhà Cừu", lời mời đặt lịch + dải ảnh, footer, nút Zalo/Messenger |
-| `/gioi-thieu`, `/concept` (+`?loai=`), `/concept/[slug]` x18, `/bang-gia`, `/bo-suu-tap`, `/chon-concept`, `/dat-lich`, `/lien-he` | không có tương ứng trực tiếp | 2 | Chưa dựng: liên kết đã có sẵn trên trang chủ, hiện rơi vào trang 404 tiếng Việt |
-| `robots`, `sitemap`, JSON-LD `Photographer` | – | 2 | Chưa dựng |
+| `/` | `/` | 1 | Đã dựng (hero dùng ảnh gia đình `gia-dinh-vay-kem-canh-kho-1`) |
+| `/gioi-thieu` | `/about` | 2 | Đã dựng theo nhịp trang mẫu: tiêu đề lớn + ảnh ngang rộng, khối chữ + lưới ảnh dọc trôi nhẹ, cặp ảnh ngang, tiêu đề + đoạn chữ hẹp, cặp ảnh dọc lệch nhau, "Studio chụp gì", "Hai chi nhánh", lời mời liên hệ. BỎ: dải logo báo, lời khen khách, form kiểu điền chỗ trống |
+| `/concept` (+`?loai=bau\|beauty\|be\|gia-dinh`) | không có tương ứng | 2 | Đã dựng, lọc bằng liên kết (dùng được khi tắt JavaScript) |
+| `/concept/[slug]` x18 | không có tương ứng | 2 | Đã dựng (tĩnh, `generateStaticParams`) |
+| `/bang-gia` | không có tương ứng | 2 | Đã dựng, giá là dữ liệu mẫu |
+| `/bo-suu-tap` | không có tương ứng | 2 | Đã dựng: 68 ảnh, mỗi ảnh dẫn tới concept của nó |
+| `/lien-he` | `/contact-us` | 2 | Đã dựng: 4 kênh liên hệ, 2 chi nhánh, bản đồ nhúng, chỉ đường |
+| `robots`, `sitemap`, JSON-LD `Photographer` | – | 2 | Đã dựng |
+| `/dat-lich`, `/chon-concept`, SQLite | – | – | **Khách yêu cầu bỏ** ("bỏ cái đặt lịch"): không dựng, không có form hay cơ sở dữ liệu. Các nút "Đặt lịch" dẫn tới `/lien-he` |
 
-## File thuộc giai đoạn 1
+## File (giai đoạn 1 và 2)
 
 - `src/app/layout.tsx`: phông (Cormorant Garamond + Be Vietnam Pro, subset vietnamese), `lang="vi"`, metadata, lớp `html.js`, header, footer, nút nổi.
 - `src/app/globals.css`: bảng màu, thang chữ (`text-display/title/jumbo/lead`), kiểu hiện dần, cảnh ghim, menu, thẻ chồng, giảm chuyển động.
@@ -21,6 +27,7 @@ Các route của Nhà Cừu lấy từ yêu cầu của khách (mục 4 trong PR
 - `src/lib/scroll-frame.ts` (một bộ lắng nghe cuộn dùng chung), `src/lib/lenis-store.ts`, `src/hooks/use-reduced-motion.ts`.
 - Dữ liệu copy từ D:\HUDI\Nha_Cuu_Photography (chỉ đọc, không sửa bản gốc): `src/data/{concepts,packages,photo-sizes}`, `src/lib/{site,site-url}.ts`.
   Đã đổi đường dẫn ảnh sang `/sites/nha-cuu/photos/` và thêm `getPhoto()`.
+- Giai đoạn 2: `src/app/{gioi-thieu,concept,concept/[slug],bang-gia,bo-suu-tap,lien-he}/page.tsx`, `robots.ts`, `sitemap.ts`, `components/sites/nha-cuu/{page-intro,category-filter,concept-card,structured-data}.tsx`.
 - Ảnh: `public/sites/nha-cuu/photos/` (68 ảnh web 1600px, copy nguyên từ D:\HUDI\Nha_Cuu_Photography\public\photos), `public/sites/nha-cuu/logo.png`, `src/app/icon.png`.
 
 ## Tái sử dụng so với dự án D:\HUDI\Nha_Cuu_Photography

@@ -276,7 +276,9 @@ html.js .nojs-nav {
 }
 
 /* Thẻ concept chồng nhau khi đủ chỗ (màn rộng và đủ cao) */
-@media (min-width: 1024px) and (min-height: 700px) and (prefers-reduced-motion: no-preference) {
+/* Ngưỡng chiều cao 620px phải khớp STACKED trong home/stack-card.tsx. Màn laptop thường có chiều cao hiển thị
+   khoảng 650-730px (kể cả khi Windows phóng 125%), nên ngưỡng không được cao hơn. */
+@media (min-width: 1024px) and (min-height: 620px) and (prefers-reduced-motion: no-preference) {
   html.js .stack-card {
     position: sticky;
     top: 0;

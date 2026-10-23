@@ -36,13 +36,13 @@ const photo = getPhoto;
 export default function AboutPage() {
   return (
     <>
-      {/* 1. Tiêu đề lớn và ảnh ngang rộng hết bề ngang */}
-      <header className="px-[var(--gutter)] pt-[calc(var(--header-h)+clamp(2rem,5vw,4rem))]">
+      {/* 1. Ảnh ngang rộng hết bề ngang */}
+      <section
+        aria-label="Ảnh đại gia đình"
+        className="px-[var(--gutter)] pt-[calc(var(--header-h)+clamp(1rem,2vw,2rem))]"
+      >
         <div className="mx-auto max-w-[1920px]">
-          <Reveal as="h1" className="text-display max-w-[16ch] lg:max-w-[14ch]">
-            Ảnh của những ngày đáng nhớ
-          </Reveal>
-          <Reveal delay={0.2} className="mt-[clamp(2rem,5vw,4.5rem)]">
+          <Reveal>
             <Photo
               photo={photo("dai-gia-dinh-nen-be", 0)}
               preload
@@ -51,7 +51,7 @@ export default function AboutPage() {
             />
           </Reveal>
         </div>
-      </header>
+      </section>
 
       {/* 2. Giới thiệu studio: chữ bên trái, lưới ảnh dọc trôi nhẹ bên phải */}
       <section
@@ -60,7 +60,7 @@ export default function AboutPage() {
       >
         <div className="mx-auto grid max-w-[1920px] grid-cols-12 gap-y-14">
           <div className="col-span-12 lg:col-span-5 lg:pr-8">
-            <Reveal as="h2" className="text-title">
+            <Reveal as="h1" className="text-title">
               <span id="studio-title">Nhà Cừu Photography</span>
             </Reveal>
             <div className="mt-8 max-w-md space-y-5 text-[1.0625rem] leading-relaxed lg:mt-10">
