@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Source-site screenshots are reference only (third-party photos, never ship)
+docs/design-references/danieleandmarilia/
+

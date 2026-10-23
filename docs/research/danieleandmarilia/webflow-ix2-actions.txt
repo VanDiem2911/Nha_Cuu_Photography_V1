@@ -1,0 +1,509 @@
+
+### a "marque-scroll-right" events=e-2:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|ef29a330-86db-b15c-db77-631dee54c59a
+  [continuous @0%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|bec9ce4d-411c-2380-94fc-b9c6d6a6e0a3 easing= outSine val: xValue=0 xUnit=% yUnit=PX
+  [continuous @100%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|bec9ce4d-411c-2380-94fc-b9c6d6a6e0a3 easing= outSine val: xValue=-8 xUnit=% yUnit=PX
+
+### a-10 "cta-out" events=e-71:MOUSE_OUT:14c8f322-9eb1-8d61-c08e-8962ec878612
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease= inQuart zValue=0 xUnit=DEG yUnit=DEG
+
+### a-105 "cookie-banner-in" events=e-549:PAGE_START:65672ae1df05229c6a36daea
+  g0 TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|6e682a82-2471-b882-ccd1-c4333fb6fdf9 dur= 500 delay= 0 ease=  yValue=500 xUnit=PX yUnit=px
+  g1 TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|6e682a82-2471-b882-ccd1-c4333fb6fdf9 dur= 1000 delay= 0 ease= outQuart yValue=0 xUnit=PX yUnit=px
+
+### a-106 "cookie-banner-out" events=e-551:MOUSE_CLICK:65672ae1df05229c6a36daea|7189cbca-d6b3-e6c6-4bdd-db7e8f331cea | e-553:MOUSE_CLICK:65672ae1df05229c6a36daea|c8f8251d-0446-b464-88fd-571fde5453bc
+  g0 TRANSFORM_MOVE sel= .cookie-banner dur= 500 delay= 0 ease=  yValue=0 xUnit=PX yUnit=px
+  g0 GENERAL_DISPLAY sel= .cookie-banner dur= 0 delay= 0 ease=  value=flex
+  g1 TRANSFORM_MOVE sel= .cookie-banner dur= 500 delay= 0 ease= inQuart yValue=500 xUnit=PX yUnit=px
+  g2 GENERAL_DISPLAY sel= .cookie-banner dur= 0 delay= 0 ease=  value=none
+
+### a-11 "wedding-project-in" events=e-13:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|de550311-8bec-9db4-5652-c6b13d1eab63
+  g0 STYLE_OPACITY sel= .cta-wrapper dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .body_text_normal.is-white dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .headline_medium_h2.is-white.padding-global dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .image-container.is-align_left dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= .image-container.is-align_left dur= 1000 delay= 0 ease= easeIn value=1 unit=
+  g1 STYLE_OPACITY sel= .headline_medium_h2.is-white.padding-global dur= 1000 delay= 0 ease= easeIn value=1 unit=
+  g1 STYLE_OPACITY sel= .body_text_normal.is-white dur= 1000 delay= 400 ease= easeIn value=1 unit=
+  g1 STYLE_OPACITY sel= .cta-wrapper dur= 1000 delay= 800 ease= easeIn value=1 unit=
+
+### a-110 "cta-in 2" events=e-585:MOUSE_OVER:65672ae1df05229c6a36daea|bc8ad537-5338-2a6d-0cbc-3ada7f165006
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease=  zValue=0 xUnit=DEG yUnit=DEG
+  g1 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease= outQuart zValue=-45 xUnit=DEG yUnit=DEG
+
+### a-111 "cta-out 2" events=e-586:MOUSE_OUT:65672ae1df05229c6a36daea|bc8ad537-5338-2a6d-0cbc-3ada7f165006
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease= inQuart zValue=0 xUnit=DEG yUnit=DEG
+
+### a-12 "wedding-project-out" events=e-14:SCROLL_OUT_OF_VIEW:65672ae1df05229c6a36daea|de550311-8bec-9db4-5652-c6b13d1eab63
+  g0 STYLE_OPACITY sel= .cta-wrapper dur= 100 delay= 0 ease= easeIn value=0 unit=
+  g0 STYLE_OPACITY sel= .body_text_normal.is-white dur= 100 delay= 0 ease= easeIn value=0 unit=
+  g0 STYLE_OPACITY sel= .headline_medium_h2.is-white.padding-global dur= 100 delay= 0 ease= easeIn value=0 unit=
+  g0 STYLE_OPACITY sel= .image-container.is-align_left dur= 100 delay= 0 ease= easeIn value=0 unit=
+
+### a-13 "parallax-scroll-about" events=e-17:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|f198b7fa-4c06-647d-3d6c-4cc28a636f55 | e-18:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|5935b78e-21f4-341a-a37a-364db9001db9
+  [continuous @0%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f198b7fa-4c06-647d-3d6c-4cc28a636f56 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f198b7fa-4c06-647d-3d6c-4cc28a636f57 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @87%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f198b7fa-4c06-647d-3d6c-4cc28a636f57 easing= ease val: yValue=-36 xUnit=PX yUnit=rem
+  [continuous @90%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f198b7fa-4c06-647d-3d6c-4cc28a636f56 easing= ease val: yValue=-19 xUnit=PX yUnit=rem
+
+### a-14 "editorial-image-in" events=e-30:MOUSE_OVER:65672ae1df05229c6a36daea|1601a550-f00a-66ae-1cd0-6db0a0de1ba0
+  g0 GENERAL_DISPLAY sel= .image-8.is-fifth dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease=  xValue=0 xUnit=px yUnit=PX
+  g1 GENERAL_DISPLAY sel= .image-8.is-second dur= 0 delay= 0 ease=  value=block
+  g1 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease= outQuart xValue=5 xUnit=% yUnit=PX
+  g1 TRANSFORM_SCALE sel= .image-8.is-second dur= 1500 delay= 0 ease= outCubic xValue=1.1 yValue=1.1
+
+### a-15 "editorial-image-out" events=e-31:MOUSE_OUT:65672ae1df05229c6a36daea|1601a550-f00a-66ae-1cd0-6db0a0de1ba0
+  g0 GENERAL_DISPLAY sel= .image-8.is-second dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_SCALE sel= .image-8.is-second dur= 500 delay= 0 ease= inCubic xValue=1 yValue=1
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 200 delay= 0 ease= easeIn xValue=0 xUnit=% yUnit=PX
+
+### a-16 "editorial-image-in 2" events=e-32:MOUSE_OVER:65672ae1df05229c6a36daea|dcb7e44b-c551-1f07-ddd4-bb516dbc86ab
+  g0 GENERAL_DISPLAY sel= .image-8.is-third dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease=  xValue=0 xUnit=% yUnit=PX
+  g1 GENERAL_DISPLAY sel= .image-8.is-third dur= 0 delay= 0 ease=  value=block
+  g1 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease= outQuart xValue=5 xUnit=% yUnit=PX
+  g1 TRANSFORM_SCALE sel= .image-8.is-third dur= 1500 delay= 0 ease= outCubic xValue=1.1 yValue=1.1
+
+### a-17 "editorial-image-out 2" events=e-33:MOUSE_OUT:65672ae1df05229c6a36daea|dcb7e44b-c551-1f07-ddd4-bb516dbc86ab
+  g0 GENERAL_DISPLAY sel= .image-8.is-third dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 300 delay= 0 ease= easeIn xValue=0 xUnit=% yUnit=PX
+  g0 TRANSFORM_SCALE sel= .image-8.is-third dur= 500 delay= 0 ease= inCubic xValue=1 yValue=1
+
+### a-18 "editorial-image-in 3" events=e-34:MOUSE_OVER:65672ae1df05229c6a36daea|ac42c23e-a555-e935-d38b-9b6cc455dafd
+  g0 GENERAL_DISPLAY sel= .image-8.is-fourth dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease=  xValue=0 xUnit=% yUnit=PX
+  g1 GENERAL_DISPLAY sel= .image-8.is-fourth dur= 0 delay= 0 ease=  value=block
+  g1 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease= outQuart xValue=5 xUnit=% yUnit=PX
+  g1 TRANSFORM_SCALE sel= .image-8.is-fourth dur= 1500 delay= 0 ease= outCubic xValue=1.1 yValue=1.1
+
+### a-19 "editorial-image-out 3" events=e-35:MOUSE_OUT:65672ae1df05229c6a36daea|ac42c23e-a555-e935-d38b-9b6cc455dafd
+  g0 GENERAL_DISPLAY sel= .image-8.is-fourth dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 300 delay= 0 ease= easeIn xValue=0 xUnit=% yUnit=PX
+  g0 TRANSFORM_SCALE sel= .image-8.is-fourth dur= 500 delay= 0 ease= inCubic xValue=1 yValue=1
+
+### a-20 "editorial-image-in 4" events=e-36:MOUSE_OVER:65672ae1df05229c6a36daea|b37b1fde-4897-62c6-0b6b-c8924245f570
+  g0 GENERAL_DISPLAY sel= .image-8.is-fifth dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease=  xValue=0 xUnit=% yUnit=PX
+  g1 GENERAL_DISPLAY sel= .image-8.is-fifth dur= 0 delay= 0 ease=  value=block
+  g1 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease= outQuart xValue=5 xUnit=% yUnit=PX
+  g1 TRANSFORM_SCALE sel= .image-8.is-fifth dur= 1500 delay= 0 ease= outCubic xValue=1.1 yValue=1.1
+
+### a-21 "editorial-image-out 4" events=e-37:MOUSE_OUT:65672ae1df05229c6a36daea|b37b1fde-4897-62c6-0b6b-c8924245f570
+  g0 GENERAL_DISPLAY sel= .image-8.is-fifth dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 300 delay= 0 ease= easeIn xValue=0 xUnit=% yUnit=PX
+  g0 TRANSFORM_SCALE sel= .image-8.is-fifth dur= 500 delay= 0 ease= inCubic xValue=1 yValue=1
+
+### a-22 "editorial-image-in 5" events=e-38:MOUSE_OVER:65672ae1df05229c6a36daea|35408d6f-35b0-f1d4-52cd-6b44b1521d9c
+  g0 GENERAL_DISPLAY sel= .image-8.is-sixt dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease=  xValue=0 xUnit=% yUnit=PX
+  g1 GENERAL_DISPLAY sel= .image-8.is-sixt dur= 0 delay= 0 ease=  value=block
+  g1 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 500 delay= 0 ease= outQuart xValue=5 xUnit=% yUnit=PX
+  g1 TRANSFORM_SCALE sel= .image-8.is-sixt dur= 1500 delay= 0 ease= outCubic xValue=1.1 yValue=1.1
+
+### a-23 "editorial-image-out 5" events=e-39:MOUSE_OUT:65672ae1df05229c6a36daea|35408d6f-35b0-f1d4-52cd-6b44b1521d9c
+  g0 GENERAL_DISPLAY sel= .image-8.is-sixt dur= 0 delay= 0 ease=  value=none
+  g0 TRANSFORM_MOVE sel= .number-and-title-wrapper dur= 300 delay= 0 ease= easeIn xValue=0 xUnit=% yUnit=PX
+  g0 TRANSFORM_SCALE sel= .image-8.is-sixt dur= 500 delay= 0 ease= inCubic xValue=1 yValue=1
+
+### a-24 "Scroll into 2" events=e-40:SCROLL_INTO_VIEW:a1405dad-e35e-b9f3-e254-d5d56eb1f186
+  g0 TRANSFORM_MOVE sel= 64006f5760e1400bc35ed9ce|04712002-528b-66ff-3cac-121f582120b8 dur= 500 delay= 0 ease=  yValue=40 xUnit=PX yUnit=PX
+  g0 STYLE_OPACITY sel= 64006f5760e1400bc35ed9ce|04712002-528b-66ff-3cac-121f582120b8 dur= 500 delay= 0 ease=  value=0 unit=
+  g1 TRANSFORM_MOVE sel= 64006f5760e1400bc35ed9ce|04712002-528b-66ff-3cac-121f582120b8 dur= 500 delay= 0 ease=  yValue=0 xUnit=PX yUnit=PX
+  g1 STYLE_OPACITY sel= 64006f5760e1400bc35ed9ce|04712002-528b-66ff-3cac-121f582120b8 dur= 500 delay= 0 ease=  value=1 unit=
+
+### a-25 "Slider Link Hover IN" events=e-42:MOUSE_OVER:.slider-link
+  g0 TRANSFORM_MOVE sel= .top-info dur= 500 delay= 0 ease=  yValue=50 xUnit=PX yUnit=px
+  g0 TRANSFORM_MOVE sel=  dur= 500 delay= 0 ease=  yValue=-50 xUnit=PX yUnit=px
+  g0 TRANSFORM_SCALE sel= .image-11 dur= 500 delay= 0 ease=  xValue=1 yValue=1
+  g1 TRANSFORM_MOVE sel= .top-info dur= 600 delay= 0 ease= outCubic yValue=0 xUnit=PX yUnit=px
+  g1 TRANSFORM_MOVE sel=  dur= 600 delay= 0 ease= outCubic yValue=0 xUnit=PX yUnit=px
+  g1 TRANSFORM_SCALE sel= .image-11 dur= 600 delay= 0 ease= outExpo xValue=1.1 yValue=1.1
+
+### a-26 "Slider Link Hover OUT" events=e-43:MOUSE_OUT:.slider-link
+  g0 TRANSFORM_MOVE sel= .top-info dur= 600 delay= 0 ease= outCubic yValue=50 xUnit=PX yUnit=px
+  g0 TRANSFORM_MOVE sel=  dur= 600 delay= 0 ease= outCubic yValue=-50 xUnit=PX yUnit=px
+  g0 TRANSFORM_SCALE sel= .image-11 dur= 600 delay= 0 ease= outExpo xValue=1 yValue=1
+
+### a-28 "about-photo-move-down (left)" events=e-45:SCROLLING_IN_VIEW:.about-photo-wrapper.is-left
+  [continuous @0%]
+     TRANSFORM_MOVE sel= .about-photo.is-left easing= ease val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @100%]
+     TRANSFORM_MOVE sel= .about-photo.is-left easing= ease val: yValue=3 xUnit=PX yUnit=rem
+
+### a-29 "about-photo-move-down (right)" events=e-46:SCROLLING_IN_VIEW:.about-photo-wrapper.is-right
+  [continuous @0%]
+     TRANSFORM_MOVE sel= .about-photo.is-right easing= ease val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @100%]
+     TRANSFORM_MOVE sel= .about-photo.is-right easing= ease val: yValue=3 xUnit=PX yUnit=rem
+
+### a-3 "video-section-zoom" events=e-9:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|ed670bea-3a53-bd24-2c1b-5a16b091293b
+  [continuous @45%]
+     TRANSFORM_MOVE sel= .image-container.is-vertical easing=  val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5bd4c761-a086-c230-3ab2-6266acaa3412 easing=  val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @49%]
+     TRANSFORM_SCALE sel= .home-videzoom_images-mid easing= outSine val: xValue=1.1 yValue=1.1
+  [continuous @69%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5bd4c761-a086-c230-3ab2-6266acaa3412 easing=  val: yValue=10 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= .image-container.is-vertical easing=  val: yValue=-10 xUnit=PX yUnit=rem
+  [continuous @90%]
+     TRANSFORM_SCALE sel= .home-videzoom_images-mid easing= outSine val: xValue=2.4 yValue=2.4
+
+### a-30 "menu-link-move-in" events=e-50:MOUSE_OVER:3b63e256-f44c-711e-2bdb-6d2f37884f48 | e-52:MOUSE_OVER:3b63e256-f44c-711e-2bdb-6d2f37884f4d | e-54:MOUSE_OVER:3b63e256-f44c-711e-2bdb-6d2f37884f52 | e-56:MOUSE_OVER:3b63e256-f44c-711e-2bdb-6d2f37884f57 | e-58:MOUSE_OVER:3b63e256-f44c-711e-2bdb-6d2f37884f5c
+  g0 TRANSFORM_MOVE sel= 3b63e256-f44c-711e-2bdb-6d2f37884f48 dur= 500 delay= 0 ease=  xValue=0 xUnit=% yUnit=PX
+  g1 TRANSFORM_MOVE sel= 3b63e256-f44c-711e-2bdb-6d2f37884f48 dur= 600 delay= 0 ease= outQuint xValue=-25 xUnit=% yUnit=PX
+
+### a-31 "menu-link-move-out" events=e-51:MOUSE_OUT:3b63e256-f44c-711e-2bdb-6d2f37884f48 | e-53:MOUSE_OUT:3b63e256-f44c-711e-2bdb-6d2f37884f4d | e-55:MOUSE_OUT:3b63e256-f44c-711e-2bdb-6d2f37884f52 | e-57:MOUSE_OUT:3b63e256-f44c-711e-2bdb-6d2f37884f57 | e-59:MOUSE_OUT:3b63e256-f44c-711e-2bdb-6d2f37884f5c
+  g0 TRANSFORM_MOVE sel= 3b63e256-f44c-711e-2bdb-6d2f37884f48 dur= 500 delay= 0 ease= inOutQuart xValue=0 xUnit=% yUnit=PX
+
+### a-33 "nav-menu-open" events=e-60:MOUSE_CLICK:57d5a36b-64c5-fe0c-8b94-4d19c0486bf8
+  g0 STYLE_SIZE sel= .fs-menu dur= 500 delay= 0 ease=  heightValue=0
+  g1 STYLE_SIZE sel= .fs-menu dur= 700 delay= 0 ease= inOutQuad heightValue=100
+
+### a-34 "nav-menu-close" events=e-61:MOUSE_SECOND_CLICK:57d5a36b-64c5-fe0c-8b94-4d19c0486bf8
+  g0 STYLE_SIZE sel= .fs-menu dur= 500 delay= 0 ease= inQuad heightValue=0
+
+### a-36 "preloader-content-in" events=e-7:PAGE_START:65672ae1df05229c6a36daea
+  g0 STYLE_OPACITY sel= 1258cce8-e7b8-b854-063b-ca36477d41fa dur= 500 delay= 0 ease= outQuart value=0 unit=
+  g0 STYLE_OPACITY sel= 1258cce8-e7b8-b854-063b-ca36477d41fb dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 1258cce8-e7b8-b854-063b-ca36477d41fa dur= 1600 delay= 800 ease= inQuad value=1 unit=
+  g1 STYLE_OPACITY sel= 1258cce8-e7b8-b854-063b-ca36477d41fb dur= 1600 delay= 1500 ease= inQuad value=1 unit=
+
+### a-37 "calendar-image-in" events=e-140:MOUSE_OVER:65672ae1df05229c6a36daea|8bf2b767-fd2b-45d9-6b8a-3390479cde71 | e-176:MOUSE_OVER:65672ae1df05229c6a36daea|70e88254-8eac-cf26-a241-621520446a39 | e-178:MOUSE_OVER:65672ae1df05229c6a36daea|554bc44c-57ba-a074-c399-7032861269e8 | e-180:MOUSE_OVER:65672ae1df05229c6a36daea|acb4ef6b-8cf8-e
+  g0 GENERAL_DISPLAY sel= 65672ae1df05229c6a36daea|f01421b6-05f0-41b0-64e3-3017dc86335c dur= 0 delay= 0 ease=  value=block
+
+### a-38 "calendar-image-out" events=e-141:MOUSE_OUT:65672ae1df05229c6a36daea|8bf2b767-fd2b-45d9-6b8a-3390479cde71 | e-177:MOUSE_OUT:65672ae1df05229c6a36daea|70e88254-8eac-cf26-a241-621520446a39 | e-179:MOUSE_OUT:65672ae1df05229c6a36daea|554bc44c-57ba-a074-c399-7032861269e8 | e-181:MOUSE_OUT:65672ae1df05229c6a36daea|acb4ef6b-8cf8-e804-
+  g0 GENERAL_DISPLAY sel= 65672ae1df05229c6a36daea|f01421b6-05f0-41b0-64e3-3017dc86335c dur= 0 delay= 0 ease=  value=none
+
+### a-4 "marque-scroll-left" events=e:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|bec9ce4d-411c-2380-94fc-b9c6d6a6e0a3
+  [continuous @0%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|bec9ce4d-411c-2380-94fc-b9c6d6a6e0a3 easing= outSine val: xValue=0 xUnit=% yUnit=PX
+  [continuous @100%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|bec9ce4d-411c-2380-94fc-b9c6d6a6e0a3 easing= outSine val: xValue=-9 xUnit=% yUnit=PX
+
+### a-45 "home-parallax_images-scroll-mobile" events=e-154:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|0fdfa08d-8159-0fc4-68b2-d6c4b4a50f7c
+  [continuous @0%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|c7648a49-9b20-b8d7-3718-2c1977938d23 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5af7a83f-4b77-5af5-9a4f-48480673424d easing= ease val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7d665acb-b417-dcc0-8b2b-6a56476a4086 easing= ease val: yValue=4 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded6 easing= ease val: yValue=6 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f0ccf2c6-3912-6c69-2f54-82ceb64d53f3 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded7 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @45%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d58 easing= ease val: yValue=3 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d59 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @65%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded6 easing= ease val: yValue=-17 xUnit=PX yUnit=rem
+  [continuous @100%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|c7648a49-9b20-b8d7-3718-2c1977938d23 easing= ease val: yValue=-12 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5af7a83f-4b77-5af5-9a4f-48480673424d easing= ease val: yValue=-18 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7d665acb-b417-dcc0-8b2b-6a56476a4086 easing= ease val: yValue=-10 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded7 easing= ease val: yValue=-18 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f0ccf2c6-3912-6c69-2f54-82ceb64d53f3 easing= ease val: yValue=-14 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d58 easing= ease val: yValue=-15 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d59 easing= ease val: yValue=-4 xUnit=PX yUnit=rem
+
+### a-46 "parallax-scroll-below-hero-mobile" events=e-156:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|b857f66c-726c-7a36-f499-505b175e000e
+  [continuous @0%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e1fc9308-051f-133b-5d94-61485fa79c3b easing= ease val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e2b2eeba-698e-6eba-c971-309dbbc1a0b4 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @100%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e1fc9308-051f-133b-5d94-61485fa79c3b easing= ease val: yValue=-8 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e2b2eeba-698e-6eba-c971-309dbbc1a0b4 easing= ease val: yValue=-2.8 xUnit=PX yUnit=rem
+
+### a-47 "video-section-zoom-mobile" events=e-155:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|ed670bea-3a53-bd24-2c1b-5a16b091293b
+  [continuous @35%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|9c31d153-22b5-0c9f-a28a-4439037970c1 easing=  val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5bd4c761-a086-c230-3ab2-6266acaa3412 easing=  val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @36%]
+     TRANSFORM_SCALE sel= .home-videzoom_images-mid easing= easeOut val: xValue=1 yValue=1
+  [continuous @73%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5bd4c761-a086-c230-3ab2-6266acaa3412 easing=  val: yValue=12 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|9c31d153-22b5-0c9f-a28a-4439037970c1 easing=  val: yValue=-12 xUnit=PX yUnit=rem
+  [continuous @85%]
+     TRANSFORM_SCALE sel= .home-videzoom_images-mid easing= easeOut val: xValue=3 yValue=3
+
+### a-49 "menu-button-lines-in" events=e-158:MOUSE_OVER:57d5a36b-64c5-fe0c-8b94-4d19c0486bf8
+  g0 STYLE_SIZE sel= .line.mid.z-index_5 dur= 500 delay= 0 ease=  widthValue=75
+  g0 STYLE_SIZE sel= .line.bottom.z-index_5 dur= 500 delay= 0 ease=  widthValue=50
+  g1 STYLE_SIZE sel= .line.mid.z-index_5 dur= 800 delay= 0 ease= outQuart widthValue=100
+  g1 STYLE_SIZE sel= .line.bottom.z-index_5 dur= 1000 delay= 0 ease= outQuart widthValue=100
+
+### a-5 "home-parallax_images-scroll" events=e-4:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|0fdfa08d-8159-0fc4-68b2-d6c4b4a50f7c
+  [continuous @0%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|c7648a49-9b20-b8d7-3718-2c1977938d23 easing= ease val: yValue=0 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5af7a83f-4b77-5af5-9a4f-48480673424d easing= ease val: yValue=0 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7d665acb-b417-dcc0-8b2b-6a56476a4086 easing= ease val: yValue=0 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded6 easing= ease val: yValue=0 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded7 easing= ease val: yValue=0 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f0ccf2c6-3912-6c69-2f54-82ceb64d53f3 easing= ease val: yValue=0 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d58 easing=  val: yValue=30 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d59 easing= ease val: yValue=60 xUnit=PX yUnit=%
+  [continuous @75%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded6 easing= ease val: yValue=-38 xUnit=PX yUnit=%
+  [continuous @100%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|c7648a49-9b20-b8d7-3718-2c1977938d23 easing= ease val: yValue=-55 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|5af7a83f-4b77-5af5-9a4f-48480673424d easing= ease val: yValue=-80 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7d665acb-b417-dcc0-8b2b-6a56476a4086 easing= ease val: yValue=-46 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|7cc5bfbc-6a78-f6c0-5fe8-d10cfb29ded7 easing= ease val: yValue=-120 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|f0ccf2c6-3912-6c69-2f54-82ceb64d53f3 easing= ease val: yValue=-69 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d58 easing= ease val: yValue=-75 xUnit=PX yUnit=%
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|0fdefd61-f429-f4b0-7807-f554b5d37d59 easing=  val: yValue=-25 xUnit=PX yUnit=%
+
+### a-50 "menu-button-lines-out" events=e-159:MOUSE_OUT:57d5a36b-64c5-fe0c-8b94-4d19c0486bf8
+  g0 STYLE_SIZE sel= .line.mid.z-index_5 dur= 500 delay= 0 ease= outQuart widthValue=75
+  g0 STYLE_SIZE sel= .line.bottom.z-index_5 dur= 700 delay= 0 ease= outQuart widthValue=50
+
+### a-51 "marquee-photos-loop" events=e-160:PAGE_START:65672ae1df05229c6a36daea
+  g0 TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|16775b76-5380-eec7-ba0a-7195a8d6a857 dur= 0 delay= 0 ease= ease xValue=0 xUnit=% yUnit=PX
+  g1 TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|16775b76-5380-eec7-ba0a-7195a8d6a857 dur= 28000 delay= 0 ease=  xValue=-100 xUnit=% yUnit=PX
+  g2 TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|16775b76-5380-eec7-ba0a-7195a8d6a857 dur= 0 delay= 0 ease=  xValue=0 xUnit=% yUnit=PX
+
+### a-52 "text-link-hover-in" events=e-162:MOUSE_OVER:61fddfbb-7129-5fc4-aa4a-d507f6ab20fc | e-164:MOUSE_OVER:18a1a0f7-d095-3f96-fcf4-cbf4be71c240 | e-166:MOUSE_OVER:f52a1b17-7c14-515a-c337-ff49fbec2e3e | e-168:MOUSE_OVER:be6f4a24-5263-14a3-72ad-9f58bf46f984 | e-170:MOUSE_OVER:fc8fe896-4899-7deb-b5af-f21e0939bd5c | e-172:MOUSE_OVER:2f3
+  g0 STYLE_TEXT_COLOR sel= 18a1a0f7-d095-3f96-fcf4-cbf4be71c240 dur= 500 delay= 0 ease=  rValue=10
+  g1 STYLE_TEXT_COLOR sel= 18a1a0f7-d095-3f96-fcf4-cbf4be71c240 dur= 500 delay= 0 ease= outQuart rValue=128
+
+### a-53 "text-link-hover-out" events=e-163:MOUSE_OUT:61fddfbb-7129-5fc4-aa4a-d507f6ab20fc | e-165:MOUSE_OUT:18a1a0f7-d095-3f96-fcf4-cbf4be71c240 | e-167:MOUSE_OUT:f52a1b17-7c14-515a-c337-ff49fbec2e3e | e-169:MOUSE_OUT:be6f4a24-5263-14a3-72ad-9f58bf46f984 | e-171:MOUSE_OUT:fc8fe896-4899-7deb-b5af-f21e0939bd5c | e-173:MOUSE_OUT:2f34d08f-
+  g0 STYLE_TEXT_COLOR sel= 18a1a0f7-d095-3f96-fcf4-cbf4be71c240 dur= 300 delay= 0 ease= outQuart rValue=10
+
+### a-54 "location-card-photo-move" events=e-214:SCROLLING_IN_VIEW:.image-container.is_25
+  [continuous @0%]
+     TRANSFORM_MOVE sel= .location-photo.is-featured easing= ease val: yValue=-1.5 xUnit=PX yUnit=rem
+  [continuous @100%]
+     TRANSFORM_MOVE sel= .location-photo.is-featured easing= ease val: yValue=0.5 xUnit=PX yUnit=rem
+
+### a-55 "CTA-Rectangle-in" events=e-215:MOUSE_OVER:.cta-square-wrapper
+  g0 STYLE_SIZE sel= .cta-line dur= 500 delay= 0 ease=  widthValue=0
+  g1 STYLE_SIZE sel= .cta-line dur= 500 delay= 0 ease= outQuart widthValue=100
+
+### a-56 "CTA-Rectangle-out" events=e-216:MOUSE_OUT:.cta-square-wrapper
+  g0 STYLE_SIZE sel= .cta-line dur= 300 delay= 0 ease= inQuart widthValue=0
+
+### a-57 "CTA-Rectangle-in 2" events=e-217:MOUSE_OVER:.cta-square-wrapper
+  g0 STYLE_SIZE sel= .cta-line dur= 500 delay= 0 ease=  widthValue=0
+  g1 STYLE_SIZE sel= .cta-line dur= 500 delay= 0 ease= outQuart widthValue=100
+
+### a-58 "CTA-Rectangle-out 2" events=e-218:MOUSE_OUT:.cta-square-wrapper
+  g0 STYLE_SIZE sel= .cta-line dur= 300 delay= 0 ease= inQuart widthValue=0
+
+### a-59 "CTA-Rectangle-in 3" events=e-219:MOUSE_OVER:.cta-square-wrapper
+  g0 STYLE_SIZE sel= .cta-line dur= 500 delay= 0 ease=  widthValue=0
+  g1 STYLE_SIZE sel= .cta-line dur= 500 delay= 0 ease= outQuart widthValue=100
+
+### a-6 "header-cta-rotation" events=e-6:PAGE_FINISH:65672ae1df05229c6a36daea
+  g0 TRANSFORM_ROTATE sel= 65672ae1df05229c6a36daea|1b20b7e1-52b0-1f14-320b-9ef55ffa646b dur= 0 delay= 0 ease=  zValue=0 xUnit=DEG yUnit=DEG
+  g1 TRANSFORM_ROTATE sel= 65672ae1df05229c6a36daea|1b20b7e1-52b0-1f14-320b-9ef55ffa646b dur= 12000 delay= 0 ease=  zValue=-360 xUnit=DEG yUnit=DEG
+  g2 TRANSFORM_ROTATE sel= 65672ae1df05229c6a36daea|1b20b7e1-52b0-1f14-320b-9ef55ffa646b dur= 0 delay= 0 ease=  zValue=0 xUnit=DEG yUnit=DEG
+
+### a-60 "CTA-Rectangle-out 3" events=e-220:MOUSE_OUT:.cta-square-wrapper
+  g0 STYLE_SIZE sel= .cta-line dur= 300 delay= 0 ease= inQuart widthValue=0
+
+### a-61 "nav-bar-cta-hover-in" events=e-221:MOUSE_OVER:2139b67d-b824-1445-7f04-33e166f9e334
+  g0 STYLE_BACKGROUND_COLOR sel= 2139b67d-b824-1445-7f04-33e166f9e334 dur= 500 delay= 0 ease=  rValue=0
+  g1 STYLE_BACKGROUND_COLOR sel= 2139b67d-b824-1445-7f04-33e166f9e334 dur= 400 delay= 0 ease= ease rValue=255
+
+### a-62 "nav-bar-cta-hover-out" events=e-222:MOUSE_OUT:2139b67d-b824-1445-7f04-33e166f9e334
+  g0 STYLE_BACKGROUND_COLOR sel= 2139b67d-b824-1445-7f04-33e166f9e334 dur= 200 delay= 0 ease= ease rValue=255
+
+### a-63 "sticky_button-hover-in" events=e-223:MOUSE_OVER:65672ae1df05229c6a36daea|a57a6e47-2593-ad2b-3e84-025355631e2f
+  g0 TRANSFORM_MOVE sel= .book_now_cta_text.is-sticky dur= 500 delay= 0 ease=  xValue=10 xUnit=rem yUnit=PX
+  g0 STYLE_SIZE sel= .sticky_cta-bg dur= 500 delay= 0 ease=  widthValue=7 heightValue=7
+  g0 STYLE_OPACITY sel= .book_now_cta_text.is-sticky dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_SIZE sel= 65672ae1df05229c6a36daea|a57a6e47-2593-ad2b-3e84-025355631e2f dur= 500 delay= 0 ease=  widthValue=7 heightValue=7
+  g1 STYLE_SIZE sel= .sticky_cta-bg dur= 500 delay= 0 ease= outQuart widthValue=7 heightValue=8
+  g1 STYLE_SIZE sel= 65672ae1df05229c6a36daea|a57a6e47-2593-ad2b-3e84-025355631e2f dur= 500 delay= 0 ease= outQuart widthValue=7 heightValue=8
+  g2 STYLE_OPACITY sel= .book_now_cta_text.is-sticky dur= 1000 delay= 0 ease= outQuart value=1 unit=
+  g2 TRANSFORM_MOVE sel= .book_now_cta_text.is-sticky dur= 500 delay= 0 ease= outQuart xValue=0 xUnit=rem yUnit=PX
+
+### a-64 "sticky_button-hover-out" events=e-224:MOUSE_OUT:65672ae1df05229c6a36daea|a57a6e47-2593-ad2b-3e84-025355631e2f
+  g0 STYLE_OPACITY sel= .book_now_cta_text.is-sticky dur= 200 delay= 0 ease= inQuart value=0 unit=
+  g0 STYLE_SIZE sel= .sticky_cta-bg dur= 300 delay= 200 ease= outSine widthValue=7 heightValue=7
+  g0 STYLE_SIZE sel= 65672ae1df05229c6a36daea|a57a6e47-2593-ad2b-3e84-025355631e2f dur= 300 delay= 200 ease= outQuart widthValue=7 heightValue=7
+  g1 TRANSFORM_MOVE sel= .book_now_cta_text.is-sticky dur= 300 delay= 0 ease= outQuart xValue=10 xUnit=rem yUnit=PX
+
+### a-65 "big_headline-in-1st" events=e-230:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|fe7c2e8f-716a-1cf9-ff79-4f17481aa4b7
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|e4e060a9-7f5f-0ed7-f258-5783b070182c dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6f618086-f255-ac9a-86fa-51091621c809 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|90aa35f8-1861-b3d5-650b-f1ba692c7136 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|3ad6e57e-7f20-9cc3-4fe9-d600a8a952ef dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|63988df3-3f31-b016-07cb-a32145e97dba dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|e4e060a9-7f5f-0ed7-f258-5783b070182c dur= 700 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|63988df3-3f31-b016-07cb-a32145e97dba dur= 700 delay= 100 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|3ad6e57e-7f20-9cc3-4fe9-d600a8a952ef dur= 700 delay= 200 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|90aa35f8-1861-b3d5-650b-f1ba692c7136 dur= 700 delay= 300 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6f618086-f255-ac9a-86fa-51091621c809 dur= 700 delay= 500 ease= inSine value=1 unit=
+
+### a-69 "big_headline-in-2nd" events=e-228:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|d7025620-8d7a-5a8e-e3cf-81aff90f700c
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|507e0ac9-bab4-defc-5874-5bf17c2151f0 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|8bfc406f-b63c-46fd-caef-65a76489dd5b dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .signature dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|507e0ac9-bab4-defc-5874-5bf17c2151f0 dur= 700 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|8bfc406f-b63c-46fd-caef-65a76489dd5b dur= 700 delay= 100 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= .signature dur= 700 delay= 200 ease= inSine value=1 unit=
+
+### a-7 "header-elements-in" events=e-8:PAGE_FINISH:65672ae1df05229c6a36daea
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|d1dc7f72-8252-9274-2611-7bc388ca54d4 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_SIZE sel= 1258cce8-e7b8-b854-063b-ca36477d41f9 dur= 500 delay= 0 ease=  heightValue=100
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|159b5b32-71b0-7461-1837-e8fe26dbd224 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|82596644-c880-9d37-3e50-fb6df936be2d dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|4913eac6-e5d2-d2ca-69ff-727ad2af9b5e dur= 500 delay= 0 ease=  value=0 unit=
+  g1 TRANSFORM_MOVE sel= 1258cce8-e7b8-b854-063b-ca36477d41f9 dur= 1000 delay= 4000 ease= inOutSine yValue=-100 xUnit=PX yUnit=svh
+  g1 STYLE_SIZE sel= 1258cce8-e7b8-b854-063b-ca36477d41f9 dur= 800 delay= 4000 ease= inOutSine heightValue=0
+  g2 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|d1dc7f72-8252-9274-2611-7bc388ca54d4 dur= 1000 delay= 0 ease= easeIn value=1 unit=
+  g2 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|4913eac6-e5d2-d2ca-69ff-727ad2af9b5e dur= 1000 delay= 200 ease= easeIn value=1 unit=
+  g2 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|82596644-c880-9d37-3e50-fb6df936be2d dur= 1000 delay= 400 ease= easeIn value=1 unit=
+  g2 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|159b5b32-71b0-7461-1837-e8fe26dbd224 dur= 1000 delay= 600 ease= easeIn value=1 unit=
+
+### a-70 "big_headline-in-3rd" events=e-237:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|c6681eb0-6489-bc75-837b-50236a20c3bf
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|b363da43-59c5-c9c1-cfba-e70e4fd98d27 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|1feef995-db96-f130-0a61-787b7ac40a9c dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|518237cf-442e-1326-1152-db6363c22b66 dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|b363da43-59c5-c9c1-cfba-e70e4fd98d27 dur= 700 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|1feef995-db96-f130-0a61-787b7ac40a9c dur= 700 delay= 100 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|518237cf-442e-1326-1152-db6363c22b66 dur= 700 delay= 200 ease= inSine value=1 unit=
+
+### a-71 "big_headline-in-4th" events=e-239:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|b4a91fed-3859-f65d-d907-8221163390db
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|96234ee0-bb5a-b3ec-aaa7-c02cb80bf50c dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|2a1b5b98-edf9-d7e9-dcea-d6a012bbf75c dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6bec9301-44cd-9482-fae3-c850f09e4f85 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|0b7fa07e-ab20-0df6-43f0-aab766442069 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|b55f3eab-05a8-ecb1-99c6-d5bc7a6f7d70 dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|96234ee0-bb5a-b3ec-aaa7-c02cb80bf50c dur= 700 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|2a1b5b98-edf9-d7e9-dcea-d6a012bbf75c dur= 700 delay= 100 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6bec9301-44cd-9482-fae3-c850f09e4f85 dur= 700 delay= 200 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|0b7fa07e-ab20-0df6-43f0-aab766442069 dur= 500 delay= 300 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|b55f3eab-05a8-ecb1-99c6-d5bc7a6f7d70 dur= 500 delay= 400 ease= inSine value=1 unit=
+
+### a-72 "publication-section-in" events=e-241:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|e3d82522-6ed7-5e97-8a17-d48538bf63c1
+  g0 STYLE_OPACITY sel= .image-container.is-100svh dur= 500 delay= 0 ease= inSine value=0 unit=
+  g0 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-last dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-04 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-03 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-02 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-01 dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= .image-container.is-100svh dur= 600 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-01 dur= 500 delay= 200 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-02 dur= 500 delay= 300 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-03 dur= 500 delay= 400 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-04 dur= 500 delay= 500 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= .editorial-project_component.padding-section-small.is-last dur= 500 delay= 600 ease= inSine value=1 unit=
+
+### a-73 "body_text-in" events=e-243:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|39c105db-97af-45b6-d171-be3de03fe8df
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|39c105db-97af-45b6-d171-be3de03fe8df dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|39c105db-97af-45b6-d171-be3de03fe8df dur= 600 delay= 0 ease= inSine value=1 unit=
+
+### a-74 "big_headline-in-5th" events=e-245:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|bcdfebdb-74eb-3570-ab2b-f0c132448bae
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|2a4be4d2-691e-a159-abd9-9b8e340dd57c dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|169e5c0f-9d14-eaf7-c7dc-88e4708fa64b dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|e68f909b-cf53-f891-0352-6e7f560b1166 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|e3aaa7d4-e688-5138-3e34-330bf3e1ad3c dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|2a4be4d2-691e-a159-abd9-9b8e340dd57c dur= 700 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|169e5c0f-9d14-eaf7-c7dc-88e4708fa64b dur= 700 delay= 100 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|e68f909b-cf53-f891-0352-6e7f560b1166 dur= 700 delay= 200 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|e3aaa7d4-e688-5138-3e34-330bf3e1ad3c dur= 500 delay= 300 ease= inSine value=1 unit=
+
+### a-75 "big_headline-in-6th" events=e-247:SCROLL_INTO_VIEW:d98b2b4a-102a-7a93-fafb-2ea2ed76e54a
+  g0 STYLE_OPACITY sel= aefd850f-cc9a-db82-8893-e10bc3a829a9 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= baa7cfce-76d1-7220-7b74-f813559b87b6 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= aed6ce4c-ed72-a71f-40e9-647930332cc3 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 5e3584b8-4096-fc23-ab84-3dc0631e65a1 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= bbcff3a5-9856-4875-8e03-5751833b6627 dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= aefd850f-cc9a-db82-8893-e10bc3a829a9 dur= 700 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= baa7cfce-76d1-7220-7b74-f813559b87b6 dur= 700 delay= 100 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= aed6ce4c-ed72-a71f-40e9-647930332cc3 dur= 700 delay= 200 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 5e3584b8-4096-fc23-ab84-3dc0631e65a1 dur= 500 delay= 300 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= bbcff3a5-9856-4875-8e03-5751833b6627 dur= 500 delay= 400 ease= inSine value=1 unit=
+
+### a-76 "sticky_button-in" events=e-249:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|ed670bea-3a53-bd24-2c1b-5a16b091293b
+  g0 TRANSFORM_MOVE sel= .sticky_cta-wrapper dur= 500 delay= 0 ease=  xValue=20 xUnit=rem yUnit=PX
+  g1 TRANSFORM_MOVE sel= .sticky_cta-wrapper dur= 800 delay= 0 ease= outSine xValue=0 xUnit=rem yUnit=PX
+
+### a-78 "cta-circle-in" events=e-251:MOUSE_OVER:fae4366d-a5f4-d63f-cb8e-83926eaf56e9 | e-565:MOUSE_OVER:d98b2b4a-102a-7a93-fafb-2ea2ed76e562
+  g0 TRANSFORM_SCALE sel= .cta-outline-circle dur= 500 delay= 0 ease=  xValue=1 yValue=1
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease=  zValue=0 xUnit=DEG yUnit=DEG
+  g1 TRANSFORM_SCALE sel= .cta-outline-circle dur= 500 delay= 0 ease= outSine xValue=1.1 yValue=1.1
+  g1 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease= outSine zValue=-45 xUnit=DEG yUnit=DEG
+
+### a-79 "cta-circle-out" events=e-252:MOUSE_OUT:fae4366d-a5f4-d63f-cb8e-83926eaf56e9 | e-566:MOUSE_OUT:d98b2b4a-102a-7a93-fafb-2ea2ed76e562
+  g0 TRANSFORM_SCALE sel= .cta-outline-circle dur= 300 delay= 0 ease= inSine xValue=1 yValue=1
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 300 delay= 0 ease= outSine zValue=0 xUnit=DEG yUnit=DEG
+
+### a-8 "parallax-scroll-below-hero" events=e-10:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|b857f66c-726c-7a36-f499-505b175e000e
+  [continuous @0%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e1fc9308-051f-133b-5d94-61485fa79c3b easing= ease val: yValue=0 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e2b2eeba-698e-6eba-c971-309dbbc1a0b4 easing= ease val: yValue=0 xUnit=PX yUnit=rem
+  [continuous @100%]
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e1fc9308-051f-133b-5d94-61485fa79c3b easing= ease val: yValue=-22 xUnit=PX yUnit=rem
+     TRANSFORM_MOVE sel= 65672ae1df05229c6a36daea|e2b2eeba-698e-6eba-c971-309dbbc1a0b4 easing= ease val: yValue=-11 xUnit=PX yUnit=rem
+
+### a-80 "cta-circle-in 2" events=e-253:MOUSE_OVER:65672ae1df05229c6a36daea|db949854-01de-b838-634a-689f19c3ea61
+  g0 TRANSFORM_SCALE sel= .cta-outline-circle dur= 500 delay= 0 ease=  xValue=1 yValue=1
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease=  zValue=0 xUnit=DEG yUnit=DEG
+  g1 TRANSFORM_SCALE sel= .cta-outline-circle dur= 500 delay= 0 ease= outSine xValue=1.1 yValue=1.1
+  g1 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease= outSine zValue=-45 xUnit=DEG yUnit=DEG
+
+### a-81 "cta-circle-out 2" events=e-254:MOUSE_OUT:65672ae1df05229c6a36daea|db949854-01de-b838-634a-689f19c3ea61
+  g0 TRANSFORM_SCALE sel= .cta-outline-circle dur= 300 delay= 0 ease= inSine xValue=1 yValue=1
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 300 delay= 0 ease= outSine zValue=0 xUnit=DEG yUnit=DEG
+
+### a-87 "home-page-projects-zoom-out" events=e-261:SCROLLING_IN_VIEW:65672ae1df05229c6a36daea|fef0cf14-87f8-7208-dcc0-fe6623fd981c
+  [continuous @35%]
+     TRANSFORM_SCALE sel= .home-projects_component easing=  val: xValue=1 yValue=1
+  [continuous @100%]
+     TRANSFORM_SCALE sel= .home-projects_component easing=  val: xValue=0.7 yValue=0.7
+
+### a-88 "big_headline-in-7th" events=e-390:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|f699613f-2ae2-c1bc-6d21-b8bdaeb9043f
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e057 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e05a dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e05d dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e060 dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e057 dur= 700 delay= 0 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e05a dur= 700 delay= 100 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e05d dur= 700 delay= 200 ease= inSine value=1 unit=
+  g1 STYLE_OPACITY sel= 65672ae1df05229c6a36daea|6619b7f1-8eec-7951-06f8-1860ccb7e060 dur= 500 delay= 300 ease= inSine value=1 unit=
+
+### a-9 "cta-in" events=e-70:MOUSE_OVER:14c8f322-9eb1-8d61-c08e-8962ec878612
+  g0 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease=  zValue=0 xUnit=DEG yUnit=DEG
+  g1 TRANSFORM_ROTATE sel= .image-7 dur= 500 delay= 0 ease= outQuart zValue=-45 xUnit=DEG yUnit=DEG
+
+### a-90 "header-cta-scale-in" events=e-265:MOUSE_OVER:65672ae1df05229c6a36daea|159b5b32-71b0-7461-1837-e8fe26dbd224
+  g0 TRANSFORM_SCALE sel= .image-2 dur= 500 delay= 0 ease=  xValue=1 yValue=1
+  g1 TRANSFORM_SCALE sel= .image-2 dur= 500 delay= 0 ease= outQuart xValue=1.1 yValue=1.1
+
+### a-91 "header-cta-scale-out" events=e-266:MOUSE_OUT:65672ae1df05229c6a36daea|159b5b32-71b0-7461-1837-e8fe26dbd224
+  g0 TRANSFORM_SCALE sel= .image-2 dur= 300 delay= 0 ease= outQuart xValue=1 yValue=1
+
+### a-92 "cta-headline-in" events=e-267:MOUSE_OVER:65672ae1df05229c6a36daea|84cf5b59-ebf1-1067-a3b2-c5e1c1f7b52a | e-269:MOUSE_OVER:65672ae1df05229c6a36daea|74926dfa-22dd-ef6c-5cbc-b1f43671dca8
+  g0 TRANSFORM_ROTATE sel= .image-37 dur= 500 delay= 0 ease=  zValue=0 xUnit=DEG yUnit=DEG
+  g1 TRANSFORM_ROTATE sel= .image-37 dur= 500 delay= 0 ease= outQuart zValue=-45 xUnit=DEG yUnit=DEG
+
+### a-93 "cta-headline-out" events=e-268:MOUSE_OUT:65672ae1df05229c6a36daea|84cf5b59-ebf1-1067-a3b2-c5e1c1f7b52a | e-270:MOUSE_OUT:65672ae1df05229c6a36daea|74926dfa-22dd-ef6c-5cbc-b1f43671dca8
+  g0 TRANSFORM_ROTATE sel= .image-37 dur= 500 delay= 0 ease= inQuart zValue=0 xUnit=DEG yUnit=DEG
+
+### a-95 "body-text-fade-in" events=e-274:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|97abc975-32ba-1e0f-edba-c0ac7d9518cd | e-316:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|98d4ea24-1790-341b-ca38-df7db77ff7d2 | e-392:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|755a6f1f-c569-e6f2-59f3-a94954b19138
+  g0 STYLE_OPACITY sel= .body_text_big dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= .body_text_big dur= 700 delay= 0 ease= inSine value=1 unit=
+
+### a-96 "featured-logos-fade-in" events=e-276:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|05bf3b2f-25e4-ba2b-50c4-e0c4832905da
+  g0 STYLE_OPACITY sel= .headline_small_h3 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .image-16 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .image-17 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .image-18 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .image-19 dur= 500 delay= 0 ease=  value=0 unit=
+  g0 STYLE_OPACITY sel= .image-20 dur= 500 delay= 0 ease=  value=0 unit=
+  g1 STYLE_OPACITY sel= .headline_small_h3 dur= 500 delay= 0 ease= inSine value=1 unit=
+  g2 STYLE_OPACITY sel= .image-20 dur= 500 delay= 0 ease= inSine value=1 unit=
+  g2 STYLE_OPACITY sel= .image-19 dur= 500 delay= 300 ease= inSine value=1 unit=
+  g2 STYLE_OPACITY sel= .image-18 dur= 500 delay= 500 ease= inSine value=1 unit=
+  g2 STYLE_OPACITY sel= .image-17 dur= 500 delay= 700 ease= inSine value=1 unit=
+  g2 STYLE_OPACITY sel= .image-16 dur= 500 delay= 900 ease= inSine value=1 unit=
+
+### slideInBottom "undefined" events=e-372:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|f198b7fa-4c06-647d-3d6c-4cc28a636f57 | e-374:SCROLL_INTO_VIEW:65672ae1df05229c6a36daea|f198b7fa-4c06-647d-3d6c-4cc28a636f56
+  g0 STYLE_OPACITY sel= N/A dur= 0 delay= 0 ease= undefined value=0
+  g1 TRANSFORM_MOVE sel= N/A dur= 0 delay= 0 ease= undefined xValue=0 yValue=100 xUnit=PX yUnit=PX
+  g2 TRANSFORM_MOVE sel= N/A dur= 1000 delay= 0 ease= outQuart xValue=0 yValue=0 xUnit=PX yUnit=PX
+  g2 STYLE_OPACITY sel= N/A dur= 1000 delay= 0 ease= outQuart value=1
